@@ -1,0 +1,61 @@
+<?php
+// Your code here!
+//echo "Hello World"
+
+//$bruno313 = "Primeira aula de PHP";
+//echo $bruno313
+
+
+//ECHO - é como um console.log
+//começamenos sempre com o dollar sign $
+//não podem começar com um número = $123bruno = "variável"
+
+
+
+
+$var_string = "Hello World";
+$var_interger = 20;
+$var_float = 30.04; //utilizamos sempre o ponto para os números décimais
+$var_bolleano = true;  //true ou false true = 1 ; false = (...);
+
+
+//Basicamente o que faz é um paragrafo, contudo podemos utilizar o PHP_EOL ( PHP ENDO OF LINE) 
+//"\n\r" WINDOWS
+//"\n" LINUX
+//"\r" MAC 
+
+echo $var_string . PHP_EOL;
+echo $var_bolleano . PHP_EOL;
+echo $var_float . PHP_EOL;
+echo $var_interger . PHP_EOL;
+
+//função que dizer qual é o tipo de variável
+
+$ar_tempo = array ( $var_string, $var_interger, $var_interger, $var_bolleano );
+
+
+
+//duas maneiras de declarar um if
+
+echo ($var_bolleano == true ? "verdadeiro" : "falso")
+
+if($var_bolleano) {
+    echo "verdadeiro";
+} else {
+    echo "falso"
+}
+
+
+// por vezes podemo não colocar dois iguais por erro, se colocarmos o valor antes da variável será mais facil de ver se está correto.
+
+//if($var_string == "hello") {
+//    echo "verdadeiro";
+//} else {
+//    echo "falso"
+//}
+
+
+
+
+
+?>
